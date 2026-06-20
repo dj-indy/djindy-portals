@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha & Marco — Your Celebration | DJ Indy</title>
+
+<style>
+:root{--gold:#B0823A;--gold-l:#D4A85A;--gold-soft:#FBF7F0;--dark:#1A0F0A;--brown:#2C1A10;
+--cream:#F6F2EA;--ink:#2C1A10;--ink-soft:#6B4E35;--line:#E4DCCD;--paper:#fff;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;background:#EFE7DC;color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.5;padding:24px 14px}
+.wrap{max-width:680px;margin:0 auto;background:var(--paper);border-radius:16px;overflow:hidden;box-shadow:0 20px 60px -30px rgba(40,20,10,.4)}
+.head{background:linear-gradient(135deg,#1A0F0A,#2C1A10 60%,#1A0F0A);padding:30px 32px 26px;border-bottom:2px solid var(--gold);text-align:center}
+.text-logo{font-size:28px;font-weight:700;letter-spacing:.12em;color:var(--gold);margin-bottom:8px;font-family:Georgia,serif;}
+.head .brand{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#C4956A;margin-bottom:8px}
+.head h1{font-family:'Georgia','Times New Roman',serif;font-weight:600;font-size:34px;color:var(--cream);line-height:1.1}
+.head .sub{font-size:13px;color:#9A8068;margin-top:8px}
+.counts{display:grid;grid-template-columns:repeat(3,1fr);background:var(--line)}
+.cc{background:var(--paper);padding:18px 16px;text-align:center}
+.cc+.cc{border-left:1px solid var(--line)}
+.cc .l{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:5px}
+.cc .v{font-family:'Georgia','Times New Roman',serif;font-size:30px;font-weight:600;color:var(--ink)}
+.cc .v.gold{color:var(--gold)}
+.sec{padding:22px 28px;border-top:1px solid var(--line)}
+.sec-t{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.step{display:flex;align-items:center;gap:13px;padding:13px 15px;border:1px solid var(--line);border-radius:10px;margin-bottom:9px}
+.step.done{background:var(--cream)}
+.step.active{border-color:var(--gold);background:var(--gold-soft)}
+.step.todo{opacity:.62}
+.step-icon{width:29px;height:29px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px;font-weight:600}
+.step-icon.done{background:var(--gold);color:#fff}
+.step-icon.active{background:#fff;border:1.5px solid var(--gold);color:var(--gold)}
+.step-icon.todo{background:var(--cream);color:#B9A88F}
+.step-text{flex:1}
+.step-title{font-size:14.5px;font-weight:600;color:var(--ink)}
+.step.todo .step-title{color:var(--ink-soft)}
+.step-desc{font-size:12px;color:var(--ink-soft);margin-top:1px}
+.pill{display:inline-block;padding:3px 11px;border-radius:20px;font-size:11px;font-weight:600;white-space:nowrap}
+.pill.done{background:#EAF3E4;color:#3B6D11}
+.pill.gold{background:var(--gold-soft);color:#854F0B;border:1px solid #E6D3AB}
+.link{font-size:12px;color:var(--gold);font-weight:600;white-space:nowrap}
+.mgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.moment{border:1px solid var(--line);border-radius:9px;padding:11px 13px}
+.m-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:3px}
+.m-val{font-size:14px;font-weight:600;color:var(--ink)}
+.m-val.empty{color:#B9A88F;font-style:italic;font-weight:400}
+.egrid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.e-k{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.e-v{font-size:14px;font-weight:600;color:var(--ink);margin-top:2px}
+.team{display:flex;gap:12px;flex-wrap:wrap}
+.tc{display:flex;align-items:center;gap:11px;border:1px solid var(--line);border-radius:10px;padding:11px 15px;flex:1;min-width:150px}
+.av{width:38px;height:38px;border-radius:50%;background:var(--brown);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;color:var(--gold);flex-shrink:0}
+.t-n{font-size:14px;font-weight:600}.t-r{font-size:11.5px;color:var(--ink-soft)}
+.msg{background:var(--gold-soft);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;padding:15px 17px;font-size:14px;line-height:1.6}
+.msg .from{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:6px}
+.foot{background:var(--brown);text-align:center;padding:18px;font-size:11px;color:#9A8068;letter-spacing:.04em}
+.foot a{color:var(--gold-l);text-decoration:none}
+@media(max-width:520px){.mgrid,.egrid{grid-template-columns:1fr}.head h1{font-size:27px}}
+</style></head>
+<body><div class="wrap">
+  <div class="head"><div class="text-logo">DJ INDY</div><div class="brand">DJ Indy · Your Celebration</div>
+    <h1>Neha & Marco</h1><div class="sub">Wedding Reception · Saturday, 4 July 2026 · Oshwal Centre</div></div>
+
+  <div class="counts">
+    <div class="cc"><div class="l">Days to go</div><div class="v">13</div></div>
+    <div class="cc"><div class="l">Deposit</div><div class="v gold">£100</div></div>
+    <div class="cc"><div class="l">Balance</div><div class="v">£400</div></div>
+  </div>
+
+  <div class="sec"><div class="sec-t">Your journey</div><div class="step done">
+            <div class="step-icon done">✓</div>
+            <div class="step-text"><div class="step-title">Booking confirmed</div>
+              <div class="step-desc">The Classic · 20 June 2026</div></div>
+            <div class="step-right"><span class="pill done">Done</span></div></div><div class="step active">
+            <div class="step-icon active">✎</div>
+            <div class="step-text"><div class="step-title">Contract</div>
+              <div class="step-desc">Agreement DJI-2026-0916 · awaiting signature</div></div>
+            <div class="step-right"><span class="link">Review →</span></div></div><div class="step active">
+            <div class="step-icon active">£</div>
+            <div class="step-text"><div class="step-title">Deposit</div>
+              <div class="step-desc">£100 (20%) · to secure your date</div></div>
+            <div class="step-right"><span class="pill gold">Due</span></div></div><div class="step active">
+            <div class="step-icon active">▤</div>
+            <div class="step-text"><div class="step-title">Planning form</div>
+              <div class="step-desc">Songs, itinerary, suppliers — about 15 mins</div></div>
+            <div class="step-right"><span class="link">Open →</span></div></div><div class="step todo">
+            <div class="step-icon todo">£</div>
+            <div class="step-text"><div class="step-title">Balance payment</div>
+              <div class="step-desc">£400 due by 5 May 2026</div></div>
+            <div class="step-right"><span class="pill gold">5 May</span></div></div><div class="step todo">
+            <div class="step-icon todo">▦</div>
+            <div class="step-text"><div class="step-title">Final consultation</div>
+              <div class="step-desc">A short call to lock every detail</div></div>
+            <div class="step-right"><span class="link">Book →</span></div></div><div class="step todo">
+            <div class="step-icon todo">★</div>
+            <div class="step-text"><div class="step-title">Your celebration</div>
+              <div class="step-desc">Saturday, 4 July 2026 · Oshwal Centre</div></div>
+            <div class="step-right"><span class="pill gold">13 days</span></div></div></div>
+
+  <div class="sec"><div class="sec-t">Your key moments</div>
+    <div class="mgrid"><div class="moment"><div class="m-label">Entrance song</div>
+        <div class="m-val empty">Not yet added</div></div><div class="moment"><div class="m-label">First dance</div>
+        <div class="m-val empty">Not yet added</div></div><div class="moment"><div class="m-label">Cake cutting</div>
+        <div class="m-val empty">Not yet added</div></div><div class="moment"><div class="m-label">Final song</div>
+        <div class="m-val empty">Not yet added</div></div></div></div>
+
+  <div class="sec"><div class="sec-t">Your event details</div>
+    <div class="egrid">
+      <div><div class="e-k">Venue</div><div class="e-v">Oshwal Centre</div></div>
+      <div><div class="e-k">Experience</div><div class="e-v">The Classic</div></div>
+      <div><div class="e-k">Performance</div><div class="e-v">5.30pm - 9.30pm</div></div>
+      <div><div class="e-k">Guests</div><div class="e-v">120</div></div>
+      <div><div class="e-k">DJ arrival</div><div class="e-v">TBC</div></div>
+      <div><div class="e-k">Booking ref</div><div class="e-v">DJI-2026-0916</div></div>
+    </div></div>
+
+  <div class="sec"><div class="sec-t">Your team</div>
+    <div class="team">
+      <div class="tc"><div class="av">DI</div><div><div class="t-n">DJ Indy</div><div class="t-r">Lead DJ &amp; host</div></div></div>
+      <div class="tc"><div class="av">TM</div><div><div class="t-n">Production team</div><div class="t-r">Lighting &amp; AV</div></div></div>
+    </div></div>
+
+  <div class="sec"><div class="sec-t">A note from DJ Indy</div>
+    <div class="msg"><div class="from">DJ Indy · 20 June 2026</div>Neha — we can't wait to be part of your day. Oshwal Centre is a wonderful setting for The Classic, and we'll make sure every moment lands perfectly. Once you've completed your planning form, we'll arrange your final call. Any questions before then, message us any time. — DJ Indy</div></div>
+
+  <div class="foot">DJ Indy &nbsp;·&nbsp; info@djindy.co.uk &nbsp;·&nbsp;
+    <a href="https://www.djindy.co.uk">www.djindy.co.uk</a> &nbsp;·&nbsp; @dj1ndy</div>
+</div></body></html>
